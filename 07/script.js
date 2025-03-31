@@ -4,7 +4,7 @@ function validarFormulario(event) {
 
     if (campoTexto.value === "") {
         erro.style.display = "block";
-        event.preventDefault(); // Impede o envio do formulário
+        event.preventDefault();
     } else {
         erro.style.display = "none";
     }
